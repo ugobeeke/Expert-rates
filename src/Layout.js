@@ -17,7 +17,7 @@ const Layout = (props) => {
       <div className="container py-3">
         {props.children}
       </div>
-      <footer className="fixed-bottom bg-secondary text-white text-center p-3">
+      <footer className="bg-secondary text-white text-center p-3">
         <div className="social-links mt-3 text-center">
           <a href="https://twitter.com/thankgodoo" className="twitter" target="_blank" rel="noopener noreferrer">
             <i className="bi bi-twitter" style={{ fontSize: '25px', marginRight: '20px', color: '#fff' }}></i>
