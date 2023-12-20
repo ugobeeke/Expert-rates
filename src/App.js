@@ -10,7 +10,7 @@ import CurrencyTable from './CurrencyTable';
 
 const App = () => {
   return (
-    <Router basename="/exchange-rate-site">
+    <Router basename="/expert-rate">
       <Layout>
         <Switch>
           <Route path="/" exact component={Home} />
